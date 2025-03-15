@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 hansolog
 
-## Getting Started
+<div align="center">
+  <img src="https://64.media.tumblr.com/dcf769c9b7cca4af44d89f5ee186c491/tumblr_mwu039CXnb1s1yw61o1_500.gifv" alt="" width="300" />
+</div>
 
-First, run the development server:
+<br /><br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 stacks
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+|                                 /                                  | name       | version | desc                                  |
+| :----------------------------------------------------------------: | ---------- | :-----: | ------------------------------------- |
+|   ![next.js icon](https://skillicons.dev/icons?i=next&perline=)    | next.js    | 15.2.2  | ssr, csr 복합 렌더링을 위해 next 사용 |
+|   ![javascript icon](https://skillicons.dev/icons?i=js&perline=)   | javascript |    -    | js로 우선 개발, 추후 ts 마이그레이션  |
+| ![tailwind icon](https://skillicons.dev/icons?i=tailwind&perline=) | tailwind   |  4.0.0  | tailwind 코드 공통화 작업 학습용      |
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<br /><br />
 
-## Learn More
+## 📌 process
 
-To learn more about Next.js, take a look at the following resources:
+### 1. 기획 & 와이어프레임 생성
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 프로젝트 목표 & 핵심 기능 정의
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 기능 별로 task 분류
 
-## Deploy on Vercel
+### 2. 깃허브 이슈 등록
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- task별로 묶어서 이슈 생성
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- label, milestone 설정
+
+### 3. 브랜치 전략
+
+- main(운영), dev(테스트), feature(기능별 개발)로 구성
+
+- task별로 feature 브랜치 생성 (ex. #1-main-page)
+
+### 4. 개발 & pr, merge 관리
+
+- 작업 단위를 나눠서 커밋하고 이슈 번호 포함
+
+- 반드시 pr 생성 후 셀프 코드리뷰 진행
+
+- 리팩토링 후 merge 하며 close, 브랜치 삭제
+
+### 5. 배포 & 태그 관리
+
+- ci/cd 연결
+
+- release tag 추가 후 배포
