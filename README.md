@@ -8,11 +8,11 @@
 
 ## 🚀 stacks
 
-|                                 /                                  | name       | version | desc                                  |
-| :----------------------------------------------------------------: | ---------- | :-----: | ------------------------------------- |
-|   ![next.js icon](https://skillicons.dev/icons?i=next&perline=)    | next.js    | 15.2.2  | ssr, csr 복합 렌더링을 위해 next 사용 |
+|                                 /                                  |    name    | version | desc                                  |
+| :----------------------------------------------------------------: | :--------: | :-----: | ------------------------------------- |
+|   ![next.js icon](https://skillicons.dev/icons?i=next&perline=)    |  next.js   | 15.2.2  | ssr, csr 복합 렌더링을 위해 next 사용 |
 |   ![javascript icon](https://skillicons.dev/icons?i=js&perline=)   | javascript |    -    | js로 우선 개발, 추후 ts 마이그레이션  |
-| ![tailwind icon](https://skillicons.dev/icons?i=tailwind&perline=) | tailwind   |  4.0.0  | tailwind 코드 공통화 작업 학습용      |
+| ![tailwind icon](https://skillicons.dev/icons?i=tailwind&perline=) |  tailwind  |  4.0.0  | tailwind 코드 공통화 작업 학습용      |
 
 <br /><br />
 
