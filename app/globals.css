@@ -1,1 +1,10 @@
+@import url('https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css');
 @import 'tailwindcss';
+@import 'tailwindcss/preflight';
+@tailwind utilities;
+
+/* @import 'tailwindcss-debug-screens'; */
+
+html {
+  font-family: 'Pretendard', sans-serif;
+}

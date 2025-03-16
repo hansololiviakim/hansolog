@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": true, // 저장할 때 자동 포맷 활성화
   "javascript.format.enable": false, // 기본 JS 포맷 비활성화
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint", // eslint를 기본 포맷터로 설정
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // eslint 대신 prettier를 기본 포맷터로 설정
   "editor.tabSize": 2, // 들여쓰기 2칸
   "editor.insertSpaces": true, // tab 대신 스페이스 사용
   "editor.wordWrap": "on", // 긴 코드 자동 줄바꿈
@@ -17,5 +17,14 @@
   "eslint.format.enable": true, // eslint 포맷 자동 적용
   "eslint.rules.customizations": [
     { "rule": "import/order", "severity": "error" } // import 순서 강제 적용
-  ]
+  ],
+  "json.schemas": [],
+  "css.lint.unknownAtRules": "ignore", // tailwind 관련 경고 무시
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true
 }
