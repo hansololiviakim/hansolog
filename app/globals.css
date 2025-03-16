@@ -3,8 +3,6 @@
 @import 'tailwindcss/preflight';
 @tailwind utilities;
 
-/* @import 'tailwindcss-debug-screens'; */
-
 html {
   font-family: 'Pretendard', sans-serif;
 }
