@@ -5,5 +5,6 @@ module.exports = {
   trailingComma: 'es5', // 마지막 쉼표 추가
   printWidth: 100, // 한 줄 최대 길이 100자
   arrowParens: 'always', // 화살표 함수 괄호 항상 사용
+  endOfLine: 'lf', // 줄바꿈 문자 통일
   plugins: ['prettier-plugin-tailwindcss'],
 }
